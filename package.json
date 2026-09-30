@@ -1,0 +1,16 @@
+{
+  "name": "calculator-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "前后端分离计算器 Node.js 后端",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "decimal.js": "^10.5.0",
+    "express": "^4.21.2"
+  }
+}
